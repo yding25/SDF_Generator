@@ -7,7 +7,7 @@ This project is forked from [Gazebo-models-generator](https://github.com/TurtleZ
 ❤️ ❤️ ❤️ If one does not want to build SDF models, he/she can freely download models from my another project [SDF_Models](https://github.com/yding25/SDF_models).
 
 **SDF_Generator** consists of three steps:
-- ✨ **Step 1**: Download mesh file (*.obj/*dae) of an object. Here are some sources: 
+- ✨✨✨ **Step 1**: Download mesh file (*.obj/*dae) of an object. Here are some sources: 
     - [turbosquid](https://www.turbosquid.com/)
     - [cgtrader](https://www.cgtrader.com/)
     - [free3d](https://free3d.com/)
@@ -18,7 +18,7 @@ This project is forked from [Gazebo-models-generator](https://github.com/TurtleZ
 
 <br>
 
-- ✨ **Step 2**: Clean mesh files using [Mesh Cleaner](https://www.hamzamerzic.info/mesh_cleaner/), and download the new mesh files.
+- ✨✨✨ **Step 2**: Clean mesh files using [Mesh Cleaner](https://www.hamzamerzic.info/mesh_cleaner/), and download the new mesh files.
   
 <p align="center">
   <a href="">
@@ -28,7 +28,7 @@ This project is forked from [Gazebo-models-generator](https://github.com/TurtleZ
 
 <br>
 
-- ✨ **Step 3**: Convert mesh files to *SDF using scripts
+- ✨✨✨ **Step 3**: Convert mesh files to *SDF using scripts
 ```bash
 git clone https://github.com/yding25/SDF_Generator.git
 cd SDF_Generator
@@ -38,7 +38,7 @@ python sdf_generator.py --model_name=YOUR_MODEL_NAME
 
 <br>
 
-- ✨ **Step 4**: Process the generated *.SDF file to enable object's physics. One can also skip this step if you don't need a physical object.
+- ✨✨✨ **Step 4**: Process the generated *.SDF file to enable object's physics. One can also skip this step if you don't need a physical object.
   - 🔥 by changing ```<static>true</static>``` to ```<static>false</static>```
   - 🔥 by adding the inertia matrix (obtained in Step 2: Mesh Cleaner)
       <p align="left">
@@ -87,4 +87,4 @@ python sdf_generator.py --model_name=YOUR_MODEL_NAME
 
 <br>
 
-- ✨ **Step 5**: Move/Copy *SDF to ~/.gazebo/models/
+- ✨✨✨ **Step 5**: Move/Copy *SDF to ~/.gazebo/models/
