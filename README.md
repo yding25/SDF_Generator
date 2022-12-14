@@ -30,11 +30,13 @@ python sdf_generator.py --model_name=YOUR_MODEL_NAME
 ```
 **!!!** Note that **YOUR_MODEL_NAME** is from YOUR_MODEL_NAME.obj or YOUR_MODEL_NAME.dae downloaded from Mesh Cleaner.
 
-- **Step 4**: Edit the generated *.SDF file by adding the inertia matrix (obtained in Step 2: Mesh Cleaner)
-<p align="center">
-  <a href="">
-    <img src="images/final_sdf.png" alt="[Logo]" width="70%">
-  </a>
-</p>
+- **Step 4**: Edit the generated *.SDF file
+  - by changing ```<static>true</static>``` to ```<static>false</static>```
+  - by adding the inertia matrix (obtained in Step 2: Mesh Cleaner)
+      <p align="center">
+        <a href="">
+          <img src="images/final_sdf.png" alt="[Logo]" width="70%">
+        </a>
+      </p>
 
 - **Step 5**: Move/Copy *SDF to ~/.gazebo/models/
