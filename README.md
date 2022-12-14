@@ -2,9 +2,9 @@
 
 This project is forked from [Gazebo-models-generator](https://github.com/TurtleZhong/Gazebo-models-generator). Thanks for the author's efforts.
 
-**SDF_Generator** is for generating 3D object models (*sdf) in Gazebo with taking *.obj / *.dae as input. Different from [Gazebo-models-generator](https://github.com/TurtleZhong/Gazebo-models-generator), it is able to preprocess mesh file, and to handle *.dae files. 
+**SDF_Generator** is for generating 3D object models (*sdf) in Gazebo with taking *.obj / *.dae as input. Different from Gazebo-models-generator, SDF_Generator is able to preprocess mesh file, and to automatically handle *.dae files. Besides, if one does not want to build SDF models, he/she can freely download models from my another project [SDF_Models](https://github.com/yding25/SDF_models).
 
-Specifically, it consists of three steps:
+**SDF_Generator** consists of three steps:
 - **Step 1**: Download mesh file (*.obj/*dae) of an object. Here are some sources: 
     - [turbosquid](https://www.turbosquid.com/)
     - [cgtrader](https://www.cgtrader.com/)
