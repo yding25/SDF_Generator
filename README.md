@@ -30,13 +30,50 @@ python sdf_generator.py --model_name=YOUR_MODEL_NAME
 ```
 **!!!** Note that **YOUR_MODEL_NAME** is from YOUR_MODEL_NAME.obj or YOUR_MODEL_NAME.dae downloaded from Mesh Cleaner.
 
-- **Step 4**: Edit the generated *.SDF file
+- **Step 4**: Process the generated *.SDF file to enable object's physics. One can also skip this step if you don't need a physical object.
   - by changing ```<static>true</static>``` to ```<static>false</static>```
   - by adding the inertia matrix (obtained in Step 2: Mesh Cleaner)
-      <p align="center">
+      <p align="left">
         <a href="">
           <img src="images/final_sdf.png" alt="[Logo]" width="70%">
         </a>
       </p>
+  - by adding the color (e.g. blue)
+      <p align="left">
+        <a href="">
+          <img src="images/material.png" alt="[Logo]" width="50%">
+        </a>
+      </p>
+  - by adding the collision info
+      <p align="left">
+        <a href="">
+          <img src="images/collision.png" alt="[Logo]" width="60%">
+        </a>
+      </p>
 
+```bash
+<material>
+  <lighting>1</lighting>
+  <ambient>0.0 0.0 1.0</ambient>
+  <diffuse>0.0 0.0 1.0</diffuse>
+  <specular>0.0 0.0 1.0</specular>
+  <emissive>0 0 0 1</emissive>
+  <shader type='vertex'>
+    <normal_map>__default__</normal_map>
+  </shader>
+</material>
+```
+```bash
+<collision name='collision'>
+  <laser_retro>0</laser_retro>
+  <max_contacts>10</max_contacts>
+  <pose frame=''>0 0 0 0 0 0</pose>
+  <geometry>
+    <mesh>
+      <uri>model://utensil_fork_blue/meshes/fork.dae</uri>
+      <scale>1 1 1</scale>
+    </mesh>
+  </geometry>
+</collision>
+```
 - **Step 5**: Move/Copy *SDF to ~/.gazebo/models/
