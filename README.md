@@ -13,6 +13,7 @@ This project is forked from [Gazebo-models-generator](https://github.com/TurtleZ
     - [free3d](https://free3d.com/)
     - [3dwarehouse](https://3dwarehouse.sketchup.com/)
     - [gazebosim](https://app.gazebosim.org/fuel/models)
+    - [sketchfab](https://sketchfab.com/feed)
   
   **!!!** Note that softwares (e.g., [Blender](https://www.blender.org/) and [Sketchup](https://www.sketchup.com/)) can convert other formats (*.3DS) into *.obj / *dae. Here, details are skipped.
 
