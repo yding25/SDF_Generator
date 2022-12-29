@@ -16,7 +16,9 @@ The author has used [Gazebo-models-generator](https://github.com/TurtleZhong/Gaz
 
 <br/>
 
-✨✨✨ **Tip 1**:  Here are some sources to download mesh files (*.obj/*dae) of an object.
+✨✨✨ **Here are a few tips**: 
+
+- Sources to download mesh files (*.obj/*dae) of an object.
    - [turbosquid](https://www.turbosquid.com/)
    - [cgtrader](https://www.cgtrader.com/)
    - [free3d](https://free3d.com/)
@@ -24,6 +26,13 @@ The author has used [Gazebo-models-generator](https://github.com/TurtleZhong/Gaz
    - [gazebosim](https://app.gazebosim.org/fuel/models)
    - [sketchfab](https://sketchfab.com/feed)
   
- ✨✨✨ **Tip 2**: [Blender](https://www.blender.org/) and [Sketchup](https://www.sketchup.com/) can convert other formats (*.3DS) into *.obj / *dae. 
+- [Blender](https://www.blender.org/) and [Sketchup](https://www.sketchup.com/) can convert other formats (*.3DS) into *.obj / *dae. 
  
- ✨✨✨ **Tip 3**: It is better to [set origin to center of mass](https://docs.blender.org/manual/en/3.4/scene_layout/object/origin.html#bpy-ops-object-origin-set).
+- It is better to [set origin to center of mass](https://docs.blender.org/manual/en/3.4/scene_layout/object/origin.html#bpy-ops-object-origin-set).
+ 
+ 
+<br/>
+
+✨✨✨ **References**: 
+
+- [How to add customized model in Gazebo (in chinese)](https://blog.csdn.net/NEUer_ljx/article/details/125504848?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-125504848-blog-98712486.pc_relevant_landingrelevant&spm=1001.2101.3001.4242.1&utm_relevant_index=3)
