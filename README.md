@@ -16,7 +16,7 @@ The author has used [Gazebo-models-generator](https://github.com/TurtleZhong/Gaz
 
 <br/>
 
-✨✨✨ **Here are a few tips**: 
+✨✨✨ **Tips**: 
 
 - Sources to download mesh files (*.obj/*dae) of an object.
    - [turbosquid](https://www.turbosquid.com/)
