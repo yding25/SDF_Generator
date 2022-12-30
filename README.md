@@ -8,7 +8,8 @@ The author has used [Gazebo-models-generator](https://github.com/TurtleZhong/Gaz
    - preprocess mesh files, 
    - handle *.dae files, 
    - consider inertia matrix,
-   - add different colors to models. 
+   - add different colors to models,
+   - consider surface friction
 
 <br/>
 
